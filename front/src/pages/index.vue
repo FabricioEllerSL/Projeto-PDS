@@ -1,7 +1,7 @@
 <template>
-  <HelloWorld />
-</template>
-
-<script setup>
-  //
-</script>
+    <TelaInicial />
+  </template>
+  
+  <script setup>
+      import TelaLogin from '@/components/TelaLogin.vue';
+  </script>

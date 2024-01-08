@@ -12,7 +12,7 @@
 <template>
     <div>
         <nav class="nav-bar d-flex justify-space-between align-center px-16">
-            <v-btn class="rounded-xl px-8 login-button">LOGIN</v-btn>
+            <v-btn to="/login" class="rounded-xl px-8 login-button">LOGIN</v-btn>
             <v-text>PsychoSystem &copy; 2023</v-text>
             <v-text>{{ dataAtual }}</v-text>
         </nav>
