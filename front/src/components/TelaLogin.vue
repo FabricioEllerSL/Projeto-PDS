@@ -12,7 +12,7 @@
 <template>
     <div>
         <nav class="nav-bar d-flex justify-space-between align-center px-16">
-            <v-btn to="/" class="rounded-xl px-8 login-button">Início</v-btn>
+            <p class="brand-name d-flex mr-n16 ml-n6"><p class="mr-2" style="color: #8b2627;">Salutar</p> Clínica</p>
             <v-text>PsychoSystem &copy; 2023</v-text>
             <v-text>{{ dataAtual }}</v-text>
         </nav>
@@ -32,4 +32,10 @@
     color: #555;
     font-size: 20px;
 }    
+
+.brand-name{
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 40px;
+}
+
 </style>
