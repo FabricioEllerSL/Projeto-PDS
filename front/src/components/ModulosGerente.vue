@@ -28,8 +28,12 @@
             <v-col cols="2">
                 <p><img src="@/assets/icons/chevron-left.png" alt=""></p>
             </v-col>
-            <v-col cols="10">
-                <h3 class="w-25 mx-auto">Bem Vindo, XXXXXX!</h3>
+            <v-col cols="8">
+                <h3 class="text-center text-secondary text-h3 font-weight-bold mt-10">Bem Vindo, XXXXXX!</h3>
+                <p class="mx-auto text-center mt-8 text-h6 text-grey clique-modulos-texto">Clique em um dos módulos para acessar suas funções.</p>
+            </v-col>
+            <v-col cols="2">
+
             </v-col>
         </v-row>
     </v-container>
@@ -46,6 +50,10 @@
 .brand-name{
   font-family: 'Times New Roman', Times, serif !important;
   font-size: 40px;
+}
+
+.clique-modulos-texto{
+    width: 300px;
 }
 
 </style>
