@@ -26,7 +26,7 @@
 
         <v-row>
             <v-col cols="2">
-                <p><img src="@/assets/icons/chevron-left.png" alt=""></p>
+                <v-btn to="/login" height="60" class="bg-primary rounded-pill pr-5 elevation-0"><img src="../assets/icons/chevron-left.png"></v-btn>
             </v-col>
             <v-col cols="8">
                 <h3 class="text-center text-secondary text-h3 font-weight-bold mt-10">Bem Vindo, XXXXXX!</h3>
@@ -37,7 +37,7 @@
             </v-col>
         </v-row>
 
-        <!-- ROW PRIMEIROS MODULOS -->
+        <!-- ROW MODULOS 1 -->
 
         <v-row class="mt-16">
             <v-col class="d-flex flex-column mt-16 align-center justify-center">
