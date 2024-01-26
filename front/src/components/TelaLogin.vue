@@ -42,6 +42,7 @@
               <v-img class="w-75 mt-10" src="@/assets/candlestick.png" alt="" />
             </v-col>
         </v-row>
+        <v-btn to="/">home</v-btn>
         <v-btn to="/gerente">Gerente</v-btn>
     </div>
 </template>
