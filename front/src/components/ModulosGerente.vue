@@ -68,6 +68,36 @@
                 </v-card>
             </v-col>
         </v-row>
+
+        <v-row class="mt-10 mb-10">
+            <v-col class="d-flex flex-column mt-16 align-center justify-center">
+                <div class="rounded-circle mx-auto d-flex py-10 px-7 mb-n12 flex-inline justify-center align-center mt-n16 imagem-circulos" style="z-index: 1;">
+                        imagem
+                </div>
+                <v-card height="220" width="250" class="pt-2 text-center card-modulo">
+                    <h2 class="text-secondary mt-15 mb-4">PACIENTE</h2>
+                    <p class="mx-6 text-subtitle-1 font-weight-medium">Gerenciamento dos pacientes consultados.</p>
+                </v-card>
+            </v-col>
+            <v-col class="d-flex flex-column mt-16 align-center justify-center">
+                <div class="rounded-circle mx-auto d-flex py-10 px-7 mb-n12 flex-inline justify-center align-center mt-n16 imagem-circulos" style="z-index: 1;">
+                        imagem
+                </div>
+                <v-card height="220" width="250" class="pt-2 text-center card-modulo">
+                    <h2 class="text-secondary mt-15 mb-4">FUNCIONÁRIOS</h2>
+                    <p class="mx-6 text-subtitle-1 font-weight-medium">Gerenciamento dos funcionários contratados.</p>
+                </v-card>
+            </v-col>
+            <v-col class="d-flex flex-column mt-16 align-center justify-center">
+                <div class="rounded-circle mx-auto d-flex py-10 px-7 mb-n12 flex-inline justify-center align-center mt-n16 imagem-circulos" style="z-index: 1;">
+                        imagem
+                </div>
+                <v-card height="220" width="250" class="pt-2 text-center card-modulo">
+                    <h2 class="text-secondary mt-15 mb-4">MÉDICOS</h2>
+                    <p class="mx-6 text-subtitle-1 font-weight-medium">Gerenciamento dos médicos em trabalho.</p>
+                </v-card>
+            </v-col>
+        </v-row>
     </v-container>
 </template>
 
