@@ -32,7 +32,7 @@
                         <h2 class="text-grey text-subtitle-1">Entre para continuar</h2>
                         <v-form class="mt-10">
                             <v-text-field :rules="rules" label="Nome"></v-text-field>
-                            <v-text-field :rules="rules" label="Senha"></v-text-field>
+                            <v-text-field :rules="rules" label="Senha" type="password"></v-text-field>
                             <v-btn type="submit" class="mt-2 w-75 bg-third text-white">Submit</v-btn>
                         </v-form>
                     </div>
